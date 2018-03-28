@@ -52,7 +52,7 @@ def collect_events(helper, ew):
 
     def get_entries(since, until, offset):
         params = {
-            #include': ['log_entries','channels','services','teams'],
+            #'include[]': ['log_entries','channels','services','teams'],
             'since': since,
             'until': until,
             "is_overview": "false",
